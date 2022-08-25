@@ -1,0 +1,306 @@
+/* .warehouse{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5%;
+} */
+
+.warehouse .head {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+  text-align: justify;
+}
+
+.warehouse .head button {
+  border-radius: 5%;
+  padding: auto;
+  /* color: white; */
+  color: black;
+  border: 2px solid white;
+  /* background-color: rgb(40, 40, 40); */
+  background-color: white;
+  /* background-color: rgb(28, 28, 28); */
+}
+
+.warehouse .head button:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 1);
+}
+
+#extendButton {
+  color: white;
+  background-color: rgb(40, 40, 40);
+}
+.warehouse .head select {
+  height: 50%;
+  border-radius: 5%;
+}
+.warehouse .head > * {
+  padding: 1%;
+}
+
+.warehouse .head h6 {
+  /* padding: 10% 0; */
+  float: right;
+}
+.warehouse .cards-outer {
+  text-align: center;
+}
+
+.warehouse .cards {
+  margin: 0% 10%;
+  /* background-color: white; */
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.warehouse .everyProduct {
+  margin: 5%;
+  background-color: white;
+}
+
+.warehouse .cards > * {
+  display: inline-block;
+  border: none;
+  margin: 1%;
+  color: black;
+}
+
+.newProd {
+  margin: auto;
+  width: 50%;
+  margin-top: 2%;
+}
+
+.newProd section {
+  padding: 5%;
+  border: 5px solid white;
+}
+
+/* .regContainer{
+    align-items: flex-start; 
+    margin:auto;
+} */
+
+.regSection {
+  /* background-color: black; */
+  /* display: flex; */
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* text-align: center; */
+}
+
+.regSection input {
+  float: right;
+  width: 40%;
+}
+
+.regSection select {
+  float: right;
+  width: 40%;
+}
+
+.addProduct {
+  /* background-color: black; */
+  /* display: flex; */
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* text-align: center; */
+}
+
+.addProduct input {
+  float: right;
+  width: 40%;
+}
+
+.regContainer .regSec {
+  max-width: 50%;
+  border: 5px solid white;
+  padding: 5%;
+}
+
+#pack {
+  /* color:red; */
+  /* width: 40%; */
+  border-radius: 2%;
+  height: 35px;
+  color: white;
+  background-color: rgb(25, 25, 25);
+  font-family: cursive;
+  font-size: 1.15rem;
+  border: none;
+}
+
+#productLink {
+  color: black;
+}
+
+#description {
+  /* display: block; */
+  width: 15rem;
+  overflow: hidden;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+}
+
+#nameProduct {
+  display: block;
+  width: 250px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+h1 {
+  padding: 1vh;
+  text-align: center;
+}
+/* .regSection label{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* hr{
+    width:50%;
+} */
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh !important;
+  min-width: 100% !important;
+  
+}
+.registerContainer section{
+  /* background: rgb(73,73,188);
+  background: linear-gradient(90deg, rgba(73,73,188,1) 35%, rgba(98,228,255,1) 100%); */
+ /*margin: 3%;*/
+ max-width: 30%;
+ /* max-height: 100% !important;
+  max-width: 420px;
+  min-height: 400px;*/
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  /* background-color:khaki; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  color:white;
+}
+
+a, a:visited {
+  color: #fff;
+}
+
+input,
+button,
+textarea {
+font-family: 'Nunito', sans-serif;
+font-size: 22px;
+padding: 0.25rem;
+border-radius: 0.5rem;
+}
+
+label,
+button {
+margin-top: 1rem;
+}
+
+form button {
+  margin-top: 2.5%;
+padding: 0.5rem;
+border: none;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+/*
+view product css
+*/
+
+.viewProd{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+width: 100%  !important;
+color:black;
+}
+
+.viewProd h1{
+  color:white;
+}
+
+.viewProd > *{
+min-width: 100%;
+}
+
+.viewProd .btns{
+  display: flex;
+  justify-content: space-evenly;  
+  margin: 2%;
+  width: 100%;
+}
+
+.btns button {
+  margin: 2%;
+  padding: 1%;
+  border: none;
+}
+
+td{
+  margin: 100px;
+}
